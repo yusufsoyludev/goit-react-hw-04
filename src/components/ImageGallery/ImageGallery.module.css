@@ -1,0 +1,16 @@
+﻿.gallery {
+  list-style: none;
+  margin: 24px auto;
+  padding: 0 16px;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.item {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(2, 6, 23, 0.15);
+  background-color: #fff;
+}

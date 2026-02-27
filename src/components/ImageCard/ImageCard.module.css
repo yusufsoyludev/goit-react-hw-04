@@ -1,0 +1,15 @@
+﻿.card {
+  height: 200px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.image:hover {
+  transform: scale(1.04);
+}

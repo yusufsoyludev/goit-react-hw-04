@@ -1,0 +1,33 @@
+﻿.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 16px;
+  background-color: #0f172a;
+}
+
+.form {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.input {
+  width: min(100%, 420px);
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  color: #fff;
+  background-color: #2563eb;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #1d4ed8;
+}
